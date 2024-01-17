@@ -9,7 +9,7 @@
 }
 #sidebar {
   display: flex;
-  flex: 0.3;
+  flex: 0.2;
   background-color: #7ebab5;
   justify-content: flex-start;
   align-items: flex-start;
@@ -69,6 +69,7 @@
 }
 #btnActionContainer {
   flex: 1;
+  align-self: flex-end;
   justify-content: flex-end;
   display: flex;
   margin: 2.5%;
@@ -229,6 +230,7 @@
   margin: 0.1em;
 }
 .actionContainer {
+  margin-top: 50%;
   display: flex;
   justify-content: flex-end;
   padding-right: 1em;
@@ -286,4 +288,15 @@
 }
 .trendingPFP {
   height: 3em;
+}
+.divider {
+  width: 100%;
+  color: #7ebab5;
+  border: 0.01em solid #7ebab5;
+}
+#announcements p {
+  color: #f6f5f5;
+}
+#announcements h3 {
+  color: #7ebab5;
 }
